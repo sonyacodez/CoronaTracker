@@ -37,3 +37,11 @@ export interface IFontSizes {
 export interface IShadows {
   shadow1: string;
 }
+
+declare module 'styled-components' {
+  export interface DefaultTheme {
+    colors: IColors;
+    fontSizes: IFontSizes;
+    shadows: IShadows;
+  }
+}
