@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTheme } from '../../../hooks';
+import { useTheme } from 'styled-components';
 import { IColors, IFontSizes } from '../../../types/styled';
 
 interface IProps {
