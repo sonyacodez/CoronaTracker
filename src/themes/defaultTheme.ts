@@ -3,16 +3,20 @@ import { DefaultTheme } from 'styled-components';
 const colors = {
   black: '#000e1a',
   white: '#ffff',
-  red: '#cc0000',
-  green1: '#5BC69B',
+  red: '#D8262E',
+  fuschia: '#F9345E',
+  green1: '#1CB142',
   yellow1: '#FFC25E',
-  purple1: '#7547DE',
+  orange1: '#FA6400',
+  purple1: '#6236FF',
   turquoise1: '#4FDAE0',
   lightGray1: '#EAEDF2',
-  gray1: '#808080',
+  lightGray2: '#CDCADA',
+  gray1: '	#817C9B',
   lightBlue1: '#D2DEFC',
+  teal: '#489AC9',
   blue: '#007ce0',
-  navy: '#004175',
+  navy: '#1A1053',
 };
 
 const fontSizes = {

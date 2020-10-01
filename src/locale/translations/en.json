@@ -1,5 +1,16 @@
 {
   "translation": {
-    "appName": "Nadav's Blog"
+    "appName": "CoronaTracker",
+    "statMiniCards": {
+      "active": {
+        "title": "Active Cases"
+      },
+      "death": {
+        "title": "Death"
+      },
+      "recovered": {
+        "title": "Recovered"
+      }
+    }
   }
 }

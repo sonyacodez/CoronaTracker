@@ -4,13 +4,17 @@ export interface IColors {
   black: string;
   white: string;
   red: string;
+  fuschia: string;
   green1: string;
   yellow1: string;
+  orange1: string;
   purple1: string;
   turquoise1: string;
   lightGray1: string;
+  lightGray2: string;
   gray1: string;
   lightBlue1: string;
+  teal: string;
   blue: string;
   navy: string;
 }
