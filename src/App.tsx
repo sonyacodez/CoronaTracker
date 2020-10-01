@@ -1,5 +1,5 @@
 import React from 'react';
-import i18n from '../src/locale/i18n';
+import i18n from './locale/i18n';
 import { defaultTheme } from './themes';
 import { GlobalStyle } from './utils/style';
 import { I18nextProvider } from 'react-i18next';
