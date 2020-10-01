@@ -9,19 +9,19 @@ const Overview: FC = () => {
   return (
     <S.CardWrapper>
       <StatMiniCard
+        currentNumOfCases={123000}
+        previousNumOfCases={169793}
         title={t('statMiniCards.active.title')}
-        previousNumOfActiveCases={169793}
-        currentNumOfActiveCases={123000}
       />
       <StatMiniCard
+        currentNumOfCases={169793}
+        previousNumOfCases={123000}
         title={t('statMiniCards.death.title')}
-        currentNumOfActiveCases={169793}
-        previousNumOfActiveCases={123000}
       />
       <StatMiniCard
+        currentNumOfCases={169793}
+        previousNumOfCases={123000}
         title={t('statMiniCards.recovered.title')}
-        currentNumOfActiveCases={169793}
-        previousNumOfActiveCases={123000}
       />
     </S.CardWrapper>
   );

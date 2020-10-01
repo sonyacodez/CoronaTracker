@@ -1,21 +1,21 @@
 import React, { FC } from 'react';
 import * as S from './StatMiniCard.style';
 import CustomText from '../Shared/CustomText/CustomText';
+import LineGraph from '../Shared/Charts/LineGraph/LineGraph';
 
-interface IProps {
+interface IStatMiniCard {
   title: string;
-  currentNumOfActiveCases: number;
-  previousNumOfActiveCases: number;
+  currentNumOfCases: number;
+  previousNumOfCases: number;
 }
 
-const StatMiniCard: FC<IProps> = ({ title, currentNumOfActiveCases, previousNumOfActiveCases }) => {
+const StatMiniCard: FC<IStatMiniCard> = ({ title, currentNumOfCases, previousNumOfCases }) => {
   const percentChange = Math.round(
-    ((currentNumOfActiveCases - previousNumOfActiveCases) / previousNumOfActiveCases) * 100
+    ((currentNumOfCases - previousNumOfCases) / previousNumOfCases) * 100
   );
   return (
     <S.Container>
-      <CustomText size="s20" text={title} />
-      <CustomText size="s32" color="teal" text={`${currentNumOfActiveCases}`} />
+      <LineGraph lineColor="orange1" />
       <S.PercentageContainer>
         <CustomText size="s14" text={`${Math.abs(percentChange)}%`} />
         <S.Arrow
@@ -24,6 +24,8 @@ const StatMiniCard: FC<IProps> = ({ title, currentNumOfActiveCases, previousNumO
           hasIncreased={!!(percentChange > 0 && percentChange)}
         />
       </S.PercentageContainer>
+      <CustomText size="s32" color="teal" text={`${currentNumOfCases}`} />
+      <CustomText size="s20" text={title} />
     </S.Container>
   );
 };
