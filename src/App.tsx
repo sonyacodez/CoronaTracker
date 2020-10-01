@@ -4,19 +4,17 @@ import { defaultTheme } from './themes';
 import { GlobalStyle } from './utils/style';
 import { I18nextProvider } from 'react-i18next';
 import { ThemeProvider } from 'styled-components';
-import CustomText from './components/Shared/CustomText/CustomText';
+import Overview from './screens/Overview/Overview';
 
 function App() {
   return (
     <I18nextProvider i18n={i18n}>
       <ThemeProvider theme={defaultTheme}>
         <GlobalStyle />
-        <CustomText text="Hello world!" color="purple1" size="s52" />
+        <Overview />
       </ThemeProvider>
     </I18nextProvider>
   );
 }
 
 export default App;
-
-
