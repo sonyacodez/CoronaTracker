@@ -1,7 +1,7 @@
 import React from 'react';
 import { CustomText as CustomTextComponent } from '..';
 import { withKnobs, text, select } from '@storybook/addon-knobs';
-import { storybookColorOptions, storybookFontSizeOptions } from './utils';
+import { storybookColorOptions, storybookFontSizeOptions } from '../../../utils/utils';
 
 export default {
   title: 'Shared',
