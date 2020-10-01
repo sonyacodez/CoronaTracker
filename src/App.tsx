@@ -4,7 +4,7 @@ import { defaultTheme } from './themes';
 import { GlobalStyle } from './utils/style';
 import { I18nextProvider } from 'react-i18next';
 import { ThemeProvider } from 'styled-components';
-import CustomText from './components/Shared/CustomText';
+import CustomText from './components/Shared/CustomText/CustomText';
 
 function App() {
   return (

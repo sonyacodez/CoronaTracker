@@ -1,5 +1,5 @@
 import React from 'react';
-import CustomText from '.';
+import CustomText from './CustomText';
 import { render } from '../../../utils/tests';
 import { RenderResult } from '@testing-library/react';
 

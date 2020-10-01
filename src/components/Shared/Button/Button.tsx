@@ -1,5 +1,5 @@
 import React from 'react';
-import CustomText from '../CustomText';
+import CustomText from '../CustomText/CustomText';
 import styled, { useTheme } from 'styled-components/macro';
 import { PlainFunction } from '../../../types/interfaces';
 import { IColors, IFontSizes } from '../../../types/styled';
