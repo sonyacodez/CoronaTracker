@@ -1,5 +1,6 @@
 import React from 'react';
-import { useTheme } from 'styled-components';
+import styled from 'styled-components/macro';
+import { css, useTheme } from 'styled-components';
 import { IColors, IFontSizes } from '../../../types/styled';
 
 interface IProps {
@@ -13,8 +14,20 @@ const CustomText: React.FC<IProps> = ({ color = 'black', size = 's14', text, bol
   const theme = useTheme();
 
   return (
-    <span style={{ color: theme.colors[color], fontSize: theme.fontSizes[size] }}>{text}</span>
+    <S.Text bold={bold} style={{ color: theme.colors[color], fontSize: theme.fontSizes[size] }}>
+      {text}
+    </S.Text>
   );
 };
+
+const S: any = {};
+
+S.Text = styled.span<{ bold: boolean }>`
+  ${({ bold }) =>
+    bold &&
+    css`
+      font-weight: bold;
+    `}
+`;
 
 export default CustomText;
