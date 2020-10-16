@@ -13,6 +13,7 @@ export interface IColors {
   lightGray1: string;
   lightGray2: string;
   gray1: string;
+  gray2: string;
   lightBlue1: string;
   teal: string;
   blue: string;
