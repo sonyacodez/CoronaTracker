@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import * as S from './Overview.style';
 import { useTranslation } from 'react-i18next';
 import StatMiniCard from '../../components/StatMiniCard/StatMiniCard';
-import AgeRangeGraph from '../../components/AgeRangeGraph/AgeRangeGraph';
+import AgeRangeGraph from '../../components/AgeRangeGraph/AgeRangeGraph1';
 
 const Overview: FC = () => {
   const { t } = useTranslation();
