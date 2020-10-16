@@ -8,7 +8,7 @@ const Overview: FC = () => {
   const { t } = useTranslation();
 
   return (
-    <div style={{ display: 'flex', margin: '20px' }}>
+    <S.Container>
       <S.CardWrapper>
         <StatMiniCard
           currentNumOfCases={123000}
@@ -27,7 +27,7 @@ const Overview: FC = () => {
         />
       </S.CardWrapper>
       <AgeRangeGraph />
-    </div>
+    </S.Container>
   );
 };
 
