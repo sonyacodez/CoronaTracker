@@ -32,7 +32,7 @@ const AgeRangeGraph: FC<IProps> = () => {
     {
       name: '20 - 29',
       [t('caseStatuses.active')]: 2000,
-      [t('caseStatuses.death')]: 9800,
+      [t('caseStatuses.death')]: 6800,
       [t('caseStatuses.recovered')]: 2290,
     },
     {
@@ -86,10 +86,10 @@ const AgeRangeGraph: FC<IProps> = () => {
       </S.Legend>
       <BarChart
         data={data}
-        width={500}
+        width={480}
         height={680}
         layout="vertical"
-        margin={{ top: 5, right: 20, left: 5, bottom: 5 }}
+        margin={{ top: 5, bottom: 5, left: 5, right: 30 }}
       >
         <XAxis type="number" tick={{ fill: colors.black }} stroke={colors.white} />
         <YAxis dataKey="name" type="category" tick={{ fill: colors.black }} stroke={colors.white} />
