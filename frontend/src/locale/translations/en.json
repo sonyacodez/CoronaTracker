@@ -1,0 +1,13 @@
+{
+  "translation": {
+    "appName": "CoronaTracker",
+    "ageRangeGraph": {
+      "title": "Fatality Rate By Age Range"
+    },
+    "caseStatuses": {
+      "active": "Active Cases",
+      "death": "Death",
+      "recovered": "Recovered"
+    }
+  }
+}

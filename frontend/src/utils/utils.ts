@@ -1,0 +1,33 @@
+export const storybookColorOptions = {
+  black: 'black',
+  white: 'white',
+  red: 'red',
+  green1: 'green1',
+  yellow1: 'yellow1',
+  purple1: 'purple1',
+  turquoise1: 'turquoise1',
+  lightGray1: 'lightGray1',
+  gray1: 'gray1',
+  lightBlue1: 'lightBlue1',
+  blue: 'blue',
+  navy: 'navy',
+} as const;
+
+export const storybookFontSizeOptions = {
+  8: 's8',
+  10: 's10',
+  12: 's12',
+  13: 's13',
+  14: 's14',
+  15: 's15',
+  16: 's16',
+  18: 's18',
+  20: 's20',
+  22: 's22',
+  24: 's24',
+  26: 's26',
+  28: 's28',
+  32: 's32',
+  44: 's44',
+  52: 's52',
+} as const;

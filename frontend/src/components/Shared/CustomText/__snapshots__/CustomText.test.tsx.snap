@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomText Render component with default styling 1`] = `
+<span
+  class="CustomText__Text-sc-11cct1l-0"
+  style="color: rgb(0, 14, 26); font-size: 1.4rem;"
+>
+  I am text
+</span>
+`;
